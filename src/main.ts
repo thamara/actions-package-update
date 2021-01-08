@@ -259,6 +259,7 @@ export default class Processor {
     }
 
     this.config.logger.debug("use npm");
+    this.config.logger.debug("use npm ci");
     await this.runInWorkingDir("npm", "ci");
 
     this.config.logger.debug("END   install");
