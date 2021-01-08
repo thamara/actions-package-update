@@ -1,8 +1,8 @@
 FROM node:latest
 
 LABEL version="0.11.0"
-LABEL repository="https://github.com/taichi/actions-package-update"
-LABEL homepage="https://github.com/taichi/actions-package-update"
+LABEL repository="https://github.com/thamara/actions-package-update"
+LABEL homepage="https://github.com/thamara/actions-package-update"
 LABEL maintainer="Sato Taichi <ryushi+actions@gmail.com>"
 
 LABEL "com.github.actions.name"="GitHub Action for package.json update."
